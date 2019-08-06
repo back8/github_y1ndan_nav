@@ -1,0 +1,39 @@
+repository: yindanc/navigation
+repository_url: https://github.com/yindanc/navigation
+
+timezone: Asia/Shanghai
+lang: zh_CN
+
+title: 银弹导航
+alias_en: 银弹导航
+alias_cn: 银弹导航
+description: 享受上网好时光
+keywords: 银弹, 导航, 银弹导航, SilverBullet-Navi, Nav, Navi, Navigation
+url: https://nav.yindan.me
+established_at: "2019-07-31T00:00+08:00"
+
+author: 银弹GCell
+author_url: https://yindan.me
+organization: yindanc
+organization_url: https://github.com/yindanc
+contact: i@yindan.me
+
+image: /images/logo.png
+logo: /images/logo.png
+logo_dark: /images/logo-dark.svg
+logo_white: /images/logo-white.svg
+
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+
+exclude:
+- .gitignore
+- .travis.yml
+- LICENSE
+- README.md
+- CNAME
+- Gemfile
+- Gemfile.lock
+- script
+- vendor
